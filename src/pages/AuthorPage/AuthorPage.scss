@@ -1,0 +1,30 @@
+.author-page {
+  position: relative;
+}
+
+.quote {
+  &-author {
+    font-size: 3.6rem;
+    margin-left: 47rem;
+    padding-top: 10rem;
+  }
+
+  &-list {
+    position: absolute;
+    top: 28rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &-list > &-text {
+    margin-bottom: 14rem;
+  }
+
+  &-back {
+    position: absolute;
+    right: 3rem;
+    top: 5rem;
+
+    cursor: pointer;
+  }
+}
